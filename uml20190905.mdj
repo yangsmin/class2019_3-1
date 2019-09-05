@@ -612,7 +612,7 @@
 											"top": 310,
 											"width": 295,
 											"height": 13,
-											"text": "+Name",
+											"text": "+name",
 											"horizontalAlignment": 0
 										},
 										{
@@ -629,7 +629,7 @@
 											"top": 325,
 											"width": 295,
 											"height": 13,
-											"text": "+Health",
+											"text": "+health",
 											"horizontalAlignment": 0
 										}
 									],
@@ -1091,7 +1091,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFtABwtC//rvW8="
 							},
-							"name": "Name"
+							"name": "name"
 						},
 						{
 							"_type": "UMLAttribute",
@@ -1099,7 +1099,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFtABwtC//rvW8="
 							},
-							"name": "Health"
+							"name": "health"
 						}
 					],
 					"operations": [
