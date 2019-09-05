@@ -1,6 +1,6 @@
 package kr.ac.daelim.uml;
 
-public class Madic {
+public class Medic {
 	public void move()
 	{
 		System.out.println("유닛이 이동한다.");
