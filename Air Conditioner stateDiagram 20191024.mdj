@@ -2946,17 +2946,17 @@
 										"$ref": "AAAAAAFt/EagOIfrREQ="
 									},
 									"font": "Arial;13;0",
-									"left": 438,
+									"left": 487,
 									"top": 448,
-									"width": 189.2236328125,
+									"width": 170,
 									"height": 13,
-									"alpha": -4.6108870313491845,
-									"distance": 108.55873986004075,
+									"alpha": -4.552013404530786,
+									"distance": 68.8839603971781,
 									"hostEdge": {
 										"$ref": "AAAAAAFt/EagOIfsctA="
 									},
 									"edgePosition": 1,
-									"text": "설정온도가 실내온도보다 낮을때"
+									"text": "설정온도<실내온도"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -3040,17 +3040,17 @@
 										"$ref": "AAAAAAFt/Ehl8IgMbFw="
 									},
 									"font": "Arial;13;0",
-									"left": 719,
+									"left": 702,
 									"top": 448,
-									"width": 189.2236328125,
+									"width": 148.2236328125,
 									"height": 13,
-									"alpha": 1.4711275757777522,
-									"distance": 110.54863183232979,
+									"alpha": 1.4212364995777953,
+									"distance": 73.824115301167,
 									"hostEdge": {
 										"$ref": "AAAAAAFt/Ehl8IgNxVE="
 									},
 									"edgePosition": 1,
-									"text": "설정온도가 실내온도보다 높을때"
+									"text": "설정온도>=실내온도"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -3397,7 +3397,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFt/EagOIfrREQ="
 									},
-									"name": "설정온도가 실내온도보다 낮을때"
+									"name": "설정온도<실내온도"
 								}
 							]
 						},
@@ -3420,7 +3420,7 @@
 									"_parent": {
 										"$ref": "AAAAAAFt/Ehl8IgMbFw="
 									},
-									"name": "설정온도가 실내온도보다 높을때"
+									"name": "설정온도>=실내온도"
 								}
 							]
 						},
