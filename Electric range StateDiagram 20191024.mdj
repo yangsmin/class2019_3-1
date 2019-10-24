@@ -3478,7 +3478,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 72.224609375,
+									"left": 0.224609375,
 									"top": 346.5,
 									"width": 97.55078125,
 									"height": 13,
@@ -3497,7 +3497,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 111,
+									"left": 39,
 									"top": 336.5,
 									"height": 13,
 									"alpha": 2.356194490192345,
@@ -3514,7 +3514,7 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 121,
+									"left": 49,
 									"top": 375.5,
 									"height": 13,
 									"alpha": -2.356194490192345,
@@ -3523,7 +3523,7 @@
 							],
 							"font": "Arial;13;0",
 							"containerChangeable": true,
-							"left": 112,
+							"left": 40,
 							"top": 344,
 							"width": 49,
 							"height": 49,
@@ -4256,17 +4256,18 @@
 									"model": {
 										"$ref": "AAAAAAFt/FTKZ5RD94g="
 									},
-									"visible": false,
 									"font": "Arial;13;0",
-									"left": 192,
-									"top": 345,
+									"left": 108,
+									"top": 347,
+									"width": 97.55078125,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
 									"hostEdge": {
 										"$ref": "AAAAAAFt/FTKZ5REaF8="
 									},
-									"edgePosition": 1
+									"edgePosition": 1,
+									"text": "Electric range on"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -4279,8 +4280,8 @@
 									},
 									"visible": null,
 									"font": "Arial;13;0",
-									"left": 192,
-									"top": 330,
+									"left": 156,
+									"top": 332,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 30,
@@ -4300,8 +4301,8 @@
 									},
 									"visible": false,
 									"font": "Arial;13;0",
-									"left": 192,
-									"top": 375,
+									"left": 156,
+									"top": 377,
 									"height": 13,
 									"alpha": -1.5707963267948966,
 									"distance": 15,
@@ -4318,8 +4319,7 @@
 							"tail": {
 								"$ref": "AAAAAAFt/E8LmJNhYew="
 							},
-							"lineStyle": 1,
-							"points": "161:367;223:366",
+							"points": "88:368;224:368",
 							"showVisibility": true,
 							"nameLabel": {
 								"$ref": "AAAAAAFt/FTKZ5RFZMk="
@@ -5394,7 +5394,17 @@
 							},
 							"target": {
 								"$ref": "AAAAAAFt/FEH5pOGnrQ="
-							}
+							},
+							"triggers": [
+								{
+									"_type": "UMLEvent",
+									"_id": "AAAAAAFt/F+FlEYKBbM=",
+									"_parent": {
+										"$ref": "AAAAAAFt/FTKZ5RD94g="
+									},
+									"name": "Electric range on"
+								}
+							]
 						},
 						{
 							"_type": "UMLTransition",
