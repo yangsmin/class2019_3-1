@@ -1623,9 +1623,9 @@
 										"$ref": "AAAAAAFt/KbV5B8VY4I="
 									},
 									"font": "Arial;13;0",
-									"left": 772,
+									"left": 770,
 									"top": 334,
-									"width": 57.0908203125,
+									"width": 61.419921875,
 									"height": 13,
 									"alpha": 1.5707963267948966,
 									"distance": 15,
@@ -1633,7 +1633,7 @@
 										"$ref": "AAAAAAFt/KbV5B8WDgo="
 									},
 									"edgePosition": 1,
-									"text": "teminated"
+									"text": "terminated"
 								},
 								{
 									"_type": "EdgeLabelView",
@@ -2502,7 +2502,7 @@
 							"_parent": {
 								"$ref": "AAAAAAFt/KLzSR2NnMM="
 							},
-							"name": "teminated",
+							"name": "terminated",
 							"source": {
 								"$ref": "AAAAAAFt/KNWUx3zHvo="
 							},
